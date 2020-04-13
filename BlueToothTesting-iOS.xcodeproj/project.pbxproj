@@ -13,10 +13,11 @@
 		9C4F5634242B618B0065A6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F5632242B618B0065A6BC /* Main.storyboard */; };
 		9C4F5636242B618D0065A6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F5635242B618D0065A6BC /* Assets.xcassets */; };
 		9C4F5639242B618D0065A6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F5637242B618D0065A6BC /* LaunchScreen.storyboard */; };
+		9C4F5643242BA98A0065A6BC /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F5642242BA98A0065A6BC /* TestingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C4F5629242B618B0065A6BC /* BlueToothTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4F5629242B618B0065A6BC /* BlueToothTesting-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueToothTesting-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4F562C242B618B0065A6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4F562E242B618B0065A6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C4F5630242B618B0065A6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		9C4F5635242B618D0065A6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4F5638242B618D0065A6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4F563A242B618D0065A6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4F5642242BA98A0065A6BC /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		9C4F562A242B618B0065A6BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C4F5629242B618B0065A6BC /* BlueToothTesting.app */,
+				9C4F5629242B618B0065A6BC /* BlueToothTesting-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				9C4F562C242B618B0065A6BC /* AppDelegate.swift */,
 				9C4F562E242B618B0065A6BC /* SceneDelegate.swift */,
 				9C4F5630242B618B0065A6BC /* ViewController.swift */,
+				9C4F5642242BA98A0065A6BC /* TestingViewController.swift */,
 				9C4F5632242B618B0065A6BC /* Main.storyboard */,
 				9C4F5635242B618D0065A6BC /* Assets.xcassets */,
 				9C4F5637242B618D0065A6BC /* LaunchScreen.storyboard */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C4F5628242B618B0065A6BC /* BlueToothTesting */ = {
+		9C4F5628242B618B0065A6BC /* BlueToothTesting-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C4F563D242B618D0065A6BC /* Build configuration list for PBXNativeTarget "BlueToothTesting" */;
+			buildConfigurationList = 9C4F563D242B618D0065A6BC /* Build configuration list for PBXNativeTarget "BlueToothTesting-iOS" */;
 			buildPhases = (
 				9C4F5625242B618B0065A6BC /* Sources */,
 				9C4F5626242B618B0065A6BC /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = BlueToothTesting;
+			name = "BlueToothTesting-iOS";
 			productName = BlueToothTesting;
-			productReference = 9C4F5629242B618B0065A6BC /* BlueToothTesting.app */;
+			productReference = 9C4F5629242B618B0065A6BC /* BlueToothTesting-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C4F5624242B618B0065A6BC /* Build configuration list for PBXProject "BlueToothTesting" */;
+			buildConfigurationList = 9C4F5624242B618B0065A6BC /* Build configuration list for PBXProject "BlueToothTesting-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C4F5628242B618B0065A6BC /* BlueToothTesting */,
+				9C4F5628242B618B0065A6BC /* BlueToothTesting-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +144,7 @@
 				9C4F5631242B618B0065A6BC /* ViewController.swift in Sources */,
 				9C4F562D242B618B0065A6BC /* AppDelegate.swift in Sources */,
 				9C4F562F242B618B0065A6BC /* SceneDelegate.swift in Sources */,
+				9C4F5643242BA98A0065A6BC /* TestingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,16 +288,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				INFOPLIST_FILE = BlueToothTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdc.BlueToothTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getac.gvs.BCO3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,23 +308,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				INFOPLIST_FILE = BlueToothTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdc.BlueToothTesting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getac.gvs.BCO3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C4F5624242B618B0065A6BC /* Build configuration list for PBXProject "BlueToothTesting" */ = {
+		9C4F5624242B618B0065A6BC /* Build configuration list for PBXProject "BlueToothTesting-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C4F563B242B618D0065A6BC /* Debug */,
@@ -326,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C4F563D242B618D0065A6BC /* Build configuration list for PBXNativeTarget "BlueToothTesting" */ = {
+		9C4F563D242B618D0065A6BC /* Build configuration list for PBXNativeTarget "BlueToothTesting-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C4F563E242B618D0065A6BC /* Debug */,

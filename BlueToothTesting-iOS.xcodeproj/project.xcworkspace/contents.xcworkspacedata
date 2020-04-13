@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BlueToothTesting.xcodeproj">
+      location = "self:/Users/araheem/Downloads/BlueToothTesting 2/BlueToothTesting-iOS.xcodeproj">
    </FileRef>
 </Workspace>

@@ -39,6 +39,12 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>processing</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -47,11 +53,15 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>to check my app</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>We use your location to show nearby Reels. This can be configured in Settings.</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
